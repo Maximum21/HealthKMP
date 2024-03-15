@@ -16,7 +16,7 @@ kotlin {
 
     cocoapods {
         name = "HealthKMPSample"
-        version = "0.0.3"
+        version = "0.0.4"
         summary = "Wrapper for HealthKit on iOS and Google Fit and Health Connect on Android."
         homepage = "https://github.com/Maximum21/HealthKMP"
         ios.deploymentTarget = "14.1"
@@ -30,8 +30,8 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-//                implementation("com.vitoksmile.health-kmp:core:0.0.3")
-//                implementation("com.pstep.health-kmp:core:0.0.3")
+//                implementation("com.vitoksmile.health-kmp:core:0.0.4")
+//                implementation("com.pstep.health-kmp:core:0.0.4")
                 implementation(project(":core"))
                 implementation(compose.runtime)
                 implementation(compose.foundation)

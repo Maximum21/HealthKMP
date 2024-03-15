@@ -57,7 +57,7 @@ build.gradle:
 sourceSets {
     val commonMain by getting {
         dependencies {
-            implementation("com.pstep.health-kmp:core:0.0.3")
+            implementation("com.pstep.health-kmp:core:0.0.4")
         }
     }
 }
@@ -65,7 +65,7 @@ sourceSets {
 
 If you are using Koin, add to build.gradle:
 ```kotlin
-implementation("com.pstep.health-kmp:koin:0.0.3")
+implementation("com.pstep.health-kmp:koin:0.0.4")
 ```
 
 ## Apple Health (iOS)

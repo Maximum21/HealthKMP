@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "com.pstep.health-kmp"
-version = "0.0.3"
+version = "0.0.4"
 
 publishing {
     repositories {
@@ -39,7 +39,7 @@ kotlin {
 
     cocoapods {
         name = "HealthKMP"
-        version = "0.0.3"
+        version = "0.0.4"
         summary = "Wrapper for HealthKit on iOS and Google Fit and Health Connect on Android."
         homepage = "https://github.com/Maximum21/HealthKMP"
         ios.deploymentTarget = "14.1"
