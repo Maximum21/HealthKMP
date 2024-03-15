@@ -31,6 +31,7 @@ kotlin {
         val commonMain by getting {
             dependencies {
 //                implementation("com.vitoksmile.health-kmp:core:0.0.3")
+//                implementation("com.pstep.health-kmp:core:0.0.3")
                 implementation(project(":core"))
                 implementation(compose.runtime)
                 implementation(compose.foundation)

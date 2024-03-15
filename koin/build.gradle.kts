@@ -65,6 +65,7 @@ kotlin {
 
         val androidMain by getting {
             dependencies {
+                implementation("androidx.startup:startup-runtime:1.1.1")
                 api("io.insert-koin:koin-android:3.3.3")
             }
         }
